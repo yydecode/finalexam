@@ -1,0 +1,71 @@
+.header-carousel-item{
+    height: 450px;
+}
+
+/*边线加粗*/
+.form-control{
+  border-width: 3px;
+}
+
+.bg-cover{
+    background-size: cover;
+    background-position:center center;
+}
+.carousel-caption{
+    background-color:rgba(25, 125, 255, 0.6);
+}
+h5,p{
+    color: cornsilk;
+}
+
+.service_font{
+    color: lightslategrey;
+}
+.lead{
+    color: black;
+}
+.jumbotron{
+    background-color: rgb(228, 230, 235);
+    height: 250px;
+}
+.pic_container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px;
+    
+}
+
+.clear{ /*text-align使中间那一块东西的文字都置中了*/
+  width: 1024px;
+  margin: auto auto;
+  text-align:center;
+}
+
+.nav-icon{
+    color: linen;
+    font-size: 25px;
+}
+
+span{
+    display: block;
+    color: #CC2121;
+    font-size: 30px;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-family: "Yesteryear", cursive;
+} 
+
+
+/*比较大的装置使用深色字 小装置白色字*/
+/*在Overview--Responsive breakpoints可以找到对应的语法，.text-md-dark{color:#333}对应于下方row justify-content-end text-md-dark*/
+/* @media (min-width: 768px){
+  .text-md-dark{
+    color:#333
+  }
+} */
+@media (max-width: 768px){
+  .text-md-dark{	
+    color:rgb(255, 255, 255)
+  }
+}
